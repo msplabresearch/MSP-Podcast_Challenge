@@ -1,0 +1,4 @@
+{
+    "wav_dir": "/path/to/MSP-PODCAST-1.11/Audios",
+    "label_path": "/path/to/processed_labels.csv"
+}
