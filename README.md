@@ -54,7 +54,9 @@ The models are to be saved in the `model` folder. If you are evaluating the pret
   ```
   $ bash download_models.sh <categorical|arousal|dominance|valence|multitask|all>
   ```
-Example: `bash download_models.sh all` to download all the models or `bash download_models.sh arousal valence` to download arousal and valence models.
+- Example 1: `bash download_models.sh all` to download all the models.
+- Example 2: `bash download_models.sh arousal valence` to download arousal and valence models.
+
 If you wish to manually download a pre-trained model. Please visit this [website](https://lab-msp.com/MODELS/Odyssey_Baselines/) and download the desired model and place them in the `model` folder. 
 
 Pre-trained models file descriptions:
