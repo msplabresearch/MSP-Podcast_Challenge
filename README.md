@@ -52,7 +52,7 @@ To train or evaluate the models, use the provided shell scripts. Here's how to u
 
 The models are to be saved in the `model` folder. If you are evaluating the pretrained models, please download the models using the script provided in `model` folder. 
   ```
-  $ bash downloal_models.sh <categorical|arousal|dominance|valence|multitask|all>
+  $ bash download_models.sh <categorical|arousal|dominance|valence|multitask|all>
   ```
 If you wish to manually download a pre-trained model. Please visit this [website](https://lab-msp.com/MODELS/Odyssey_Baselines/) and download the desired model and place them in the `model` folder. 
 
