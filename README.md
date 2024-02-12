@@ -50,9 +50,11 @@ To train or evaluate the models, use the provided shell scripts. Here's how to u
 
 ### Models
 
-The models are to be saved in the `model` folder (please create a model folder if it does not exist). If you are only evaluating the models, please place the pre-trained models in this folder. Ensure the path to each model corresponds to the `--model_path` argument defined in each `.sh` file.
-
-If you wish to download a pre-trained model. Please visit this [website](https://lab-msp.com/MODELS/Odyssey_Baselines/) and download the desired model and place them in the `model` folder. 
+The models are to be saved in the `model` folder. If you are evaluating the pretrained models, please download the models using the script provided in `model` folder. 
+  ```
+  $ bash downloal_models.sh <categorical|arousal|dominance|valence|multitask|all>
+  ```
+If you wish to manually download a pre-trained model. Please visit this [website](https://lab-msp.com/MODELS/Odyssey_Baselines/) and download the desired model and place them in the `model` folder. 
 
 Pre-trained models file descriptions:
 - "weight_cat_ser.zip" --> Categorical emotion recognition baseline.
