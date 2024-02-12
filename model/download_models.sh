@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Check if exactly one argument is provided
+# Check if exactly one or more arguments are provided
 if [ "$#" -lt 1 ]; then
     echo "Usage: $0 {categorical|arousal|dominance|valence|multitask|all}"
     exit 1
@@ -42,7 +42,7 @@ do_multitask() {
     rm dim_ser.zip
 }
 
-# Main logic to process the input argument
+# Main logic to process the input argument/s
 for arg in "$@"
 do
     case $1 in
