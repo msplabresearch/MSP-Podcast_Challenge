@@ -2,6 +2,8 @@
 
 This repository contains scripts to train and evaluate baseline models on various tasks including categorical emotion, multi-task emotional attributes, and single-task emotional attributes for arousal, dominance, and valence.
 
+Link to the baseline experiments: [Baseline_Model.pdf](Baseline_Model.pdf)
+
 Link to the challenge: [Odyssey 2024 - Emotion Recognition Challenge](https://www.odyssey2024.org/emotion-recognition-challenge)
 
 Link to the [submission website](https://lab-msp.com/MSP-Podcast_Competition/leaderboard.php)
