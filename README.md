@@ -39,6 +39,14 @@ To replicate the environment necessary to run the code, you have two options:
 
 Before running the training or evaluation scripts, update the `config.json` file with the paths to your local audio folder and label CSV file.
 
+### Categorical Emotion Recognition Model
+
+Before running training or evaluation of categorical emotion recognition model. Please execute the script `process_labels_for_categorical.py` to properly format the provided `labels_consensus.csv` file for categorical emotion recognition. Then place the path of the processed .csv file in the `config.json` file to run this configuration.
+
+### Attributes Emotion Recognition Model
+
+The original `labels_consensus.csv` file provided with the dataset can be used as-is for attributes emotion recognition. Please place the path to the `labels_consensu.csv` file in the `config.json` file to run this configuration.
+
 ## Training and Evaluation
 
 To train or evaluate the models, use the provided shell scripts. Here's how to use each script:
