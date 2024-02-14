@@ -37,7 +37,7 @@ To replicate the environment necessary to run the code, you have two options:
 
 ## Configuration
 
-Before running the training or evaluation scripts, update the `config.json` file with the paths to your local audio folder and label CSV file.
+Before running the training or evaluation scripts, check intructions below and update the `config.json` file with the paths to your local audio folder and label CSV file.
 
 ### Categorical Emotion Recognition Model
 
