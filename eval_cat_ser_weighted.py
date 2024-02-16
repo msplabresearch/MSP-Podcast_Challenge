@@ -87,7 +87,7 @@ print(class_weights_tensor)
 
 total_dataset=dict()
 total_dataloader=dict()
-for dtype in ["test3","dev"]:
+for dtype in ["dev"]:
     cur_utts, cur_labs = utils.load_cat_emo_label(label_path, dtype)
     cur_wavs = utils.load_audio(audio_path, cur_utts)
     wav_mean, wav_std = utils.load_norm_stat(MODEL_PATH+"/train_norm_stat.pkl")
@@ -135,7 +135,7 @@ ser_model.eval(); ser_model.cuda()
 
 
 lm = utils.LogManager()
-for dtype in ["test3","dev"]:
+for dtype in ["dev"]:
     lm.alloc_stat_type_list([f"{dtype}_loss"])
 
 min_epoch=0
@@ -150,7 +150,7 @@ if not os.path.exists(MODEL_PATH + '/results'):
     os.mkdir(MODEL_PATH + '/results')
 INFERENCE_TIME=0
 FRAME_SEC = 0
-for dtype in ["test3","dev"]:
+for dtype in ["dev"]:
     total_pred = [] 
     total_y = []
     total_utt = []
