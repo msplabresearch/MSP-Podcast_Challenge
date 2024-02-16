@@ -52,7 +52,7 @@ label_path = config["label_path"]
 
 total_dataset=dict()
 total_dataloader=dict()
-for dtype in ["test3"]:
+for dtype in ["dev"]:
     cur_utts, cur_labs = utils.load_adv_dominance(label_path, dtype)
     cur_wavs = utils.load_audio(audio_path, cur_utts)
     wav_mean, wav_std = utils.load_norm_stat(MODEL_PATH+"/train_norm_stat.pkl")
@@ -99,7 +99,7 @@ ser_model.eval(); ser_model.cuda()
 
 
 lm = utils.LogManager()
-for dtype in ["test3"]:
+for dtype in ["dev"]:
     lm.alloc_stat_type_list([f"{dtype}_dom"])
 
 min_epoch=0
@@ -113,7 +113,7 @@ ser_model.eval()
 
 INFERENCE_TIME=0
 FRAME_SEC = 0
-for dtype in ["test3"]:
+for dtype in ["dev"]:
     total_pred = [] 
     total_y = []
     total_utt = []
@@ -161,6 +161,6 @@ print("Inference time per sec", INFERENCE_TIME/FRAME_SEC, "sec")
 
 os.makedirs(os.path.dirname(args.store_path), exist_ok=True)
 with open(args.store_path, 'w') as f:
-    for dtype in ["test3"]:
+    for dtype in ["dev"]:
         dom = str(lm.get_stat(f"{dtype}_dom"))
         f.write(dom+"\n")
