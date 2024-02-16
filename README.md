@@ -11,6 +11,8 @@ Link to the [submission website](https://lab-msp.com/MSP-Podcast_Competition/lea
 Refer to the links above to sign-up for the challenge, rules, submission deadlines, and file formatting instructions.
 ## Environment Setup
 
+Python version = 3.9.7
+
 To replicate the environment necessary to run the code, you have two options:
 
 ### Using Conda
@@ -22,7 +24,6 @@ To replicate the environment necessary to run the code, you have two options:
     conda activate baseline_env
 4. Make sure to install the transformers library as it is essential for the code to run:
     pip install transformers
-
 
 
 ### Using pip
