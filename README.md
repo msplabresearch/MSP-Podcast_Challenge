@@ -58,6 +58,10 @@ To train or evaluate the models, use the provided shell scripts. Here's how to u
 - `bash run_dominance.sh`: Trains or evaluates the single-task emotional attribute baseline for dominance.
 - `bash run_valence.sh`: Trains or evaluates the single-task emotional attribute baseline for valence.
 
+### Evaluation and saving results for emotional attributes prediction
+
+A custom executable sample file for evaluation and results saving has been provided `eval_dim_ser_test3.py`. To execute, just download or train the multi-task emotional attributes baseline as a sample. Then execute `bash run_dim.sh` (NOTE: if you will not be training the entire model again. Please, comment out the training lines in `run_dim.sh` before evaluation). The saved results will be saved in the correct `.csv` format and it will be located in a `results` folder created inside your model path location.
+
 
 ### Models
 
