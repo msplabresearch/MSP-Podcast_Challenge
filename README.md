@@ -88,3 +88,18 @@ A custom executable sample file for evaluation and results saving has been provi
 ## Issues
 
 If you encounter any issues while setting up, training, or evaluating the models, please open an issue on this repository with a detailed description of the problem.
+
+---------------------------
+To cite this repository in your works, use the following BibTeX entry:
+
+```
+@misc{SER_Challenge_2024,
+  author = {Goncalves, Lucas and Salman, Ali and Busso, Carlos and Sisman, Berrak and Reddy, Abinay and Velazquez, Laureano Moro and Thebaud, Thomas and Garcia, Leibny Paola and Dehak, Najim},
+  title = {Odyssey 2024 - Emotion Recognition Challenge},
+  year = {2024},
+  publisher = {GitHub},
+  journal = {MSP-Podcast Challenge},
+  howpublished = {\url{https://github.com/MSP-UTD/MSP-Podcast_Challenge}},
+}
+```
+
