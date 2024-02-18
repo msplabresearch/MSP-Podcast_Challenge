@@ -94,7 +94,7 @@ To cite this repository in your works, use the following BibTeX entry:
 
 ```
 @misc{SER_Challenge_2024,
-  author = {Goncalves, Lucas and Salman, Ali and Busso, Carlos and Sisman, Berrak and Reddy, Abinay and Velazquez, Laureano Moro and Thebaud, Thomas and Garcia, Leibny Paola and Dehak, Najim},
+  author = {Goncalves, Lucas and Salman, Ali and Reddy, Abinay and Velazquez, Laureano Moro and Thebaud, Thomas and Garcia, Leibny Paola and Dehak, Najim and Sisman, Berrak and Busso, Carlos},
   title = {Odyssey 2024 - Emotion Recognition Challenge},
   year = {2024},
   publisher = {GitHub},
