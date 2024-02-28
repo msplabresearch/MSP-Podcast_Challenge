@@ -14,7 +14,7 @@ for seed in 7; do
         --pooling_type=${pool_type} \
         --model_path=model/dim_ser/wavLM_adamW/${seed} || exit 0;
 
-    # Evaluation on Test3 and save results using with format required by challenge
+    # Evaluation on Test3 and save results using format required by challenge
     python eval_dim_ser_test3.py \
         --ssl_type=${ssl_type} \
         --pooling_type=${pool_type} \
