@@ -93,13 +93,14 @@ If you encounter any issues while setting up, training, or evaluating the models
 To cite this repository in your works, use the following BibTeX entry:
 
 ```
-@misc{SER_Challenge_2024,
-  author = {Goncalves, Lucas and Salman, Ali N. and Reddy, Abinay and Velazquez, Laureano Moro and Thebaud, Thomas and Garcia, Leibny Paola and Dehak, Najim and Sisman, Berrak and Busso, Carlos},
-  title = {Odyssey 2024 - Emotion Recognition Challenge},
-  year = {2024},
-  publisher = {GitHub},
-  journal = {MSP-Podcast Challenge},
-  howpublished = {\url{https://github.com/MSP-UTD/MSP-Podcast_Challenge}},
+@InProceedings{Goncalves_2024,
+            author={L. Goncalves and A. N. Salman and A. {Reddy Naini} and L. Moro-Velazquez and T. Thebaud and L. {Paola Garcia} and N. Dehak and B. Sisman and C. Busso},
+            title={Odyssey2024 - Speech Emotion Recognition Challenge: Dataset, Baseline Framework, and Results},
+            booktitle={Odyssey 2024: The Speaker and Language Recognition Workshop)},
+            volume={To appear},
+            year={2024},
+            month={June},
+            address =  {Quebec, Canada},
 }
 ```
 
