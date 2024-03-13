@@ -76,7 +76,18 @@ Pre-trained models file descriptions:
 - "dim_dom_ser.zip" --> Dominance single-task emotional attribute baseline.
 - "dim_val_ser.zip" --> Valence single-task emotional attribute baseline.
 - "dim_ser.zip" --> Multi-task emotional attributes baseline.
-    
+
+### HuggingFace
+
+If you are only interested in using the pretained models for prediction or feature extraction, we have made the models available on HuggingFace.
+
+  #### Models on HuggingFace
+  - [x] [Categorical model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Categorical)
+  - [x] [Multi-Task attribute model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes)
+  - [ ] Valence model
+  - [ ] Dominance model
+  - [ ] Arousal model
+
 ### Evaluation Only
 
 If you are only evaluating a model and do not wish to train it, comment out the lines related to `train_****_.py` in the respective `.sh` file.
