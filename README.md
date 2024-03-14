@@ -48,6 +48,19 @@ Before running training or evaluation of categorical emotion recognition model. 
 
 The original `labels_consensus.csv` file provided with the dataset can be used as-is for attributes emotion recognition. Please place the path to the `labels_consensu.csv` file in the `config.json` file to run this configuration.
 
+## Inferencing
+
+### HuggingFace
+
+If you are only interested in using the pretained models for prediction or feature extraction, we have made the models available on HuggingFace.
+
+  #### Models on HuggingFace
+  - [x] [Categorical model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Categorical)  -  [Categorical App/Demo](https://huggingface.co/spaces/3loi/WavLM-SER-Multi-Baseline-Odyssey2024)
+  - [x] [Multi-task attribute model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes)
+  - [ ] Valence model
+  - [ ] Dominance model
+  - [ ] Arousal model
+
 ## Training and Evaluation
 
 To train or evaluate the models, use the provided shell scripts. Here's how to use each script:
@@ -77,16 +90,7 @@ Pre-trained models file descriptions:
 - "dim_val_ser.zip" --> Valence single-task emotional attribute baseline.
 - "dim_ser.zip" --> Multi-task emotional attributes baseline.
 
-### HuggingFace
 
-If you are only interested in using the pretained models for prediction or feature extraction, we have made the models available on HuggingFace.
-
-  #### Models on HuggingFace
-  - [x] [Categorical model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Categorical)
-  - [x] [Multi-Task attribute model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes)
-  - [ ] Valence model
-  - [ ] Dominance model
-  - [ ] Arousal model
 
 ### Evaluation Only
 
