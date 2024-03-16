@@ -55,8 +55,8 @@ The original `labels_consensus.csv` file provided with the dataset can be used a
 If you are only interested in using the pretained models for prediction or feature extraction, we have made the models available on HuggingFace.
 
   #### Models on HuggingFace
-  - [x] [Categorical model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Categorical)  -  [Categorical App/Demo](https://huggingface.co/spaces/3loi/WavLM-SER-Multi-Baseline-Odyssey2024)
-  - [x] [Multi-task attribute model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes)
+  - [x] [Categorical model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Categorical)
+  - [x] [Multi-task attribute model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes)   -  [Emmotional Attributes Prediction App/Demo](https://huggingface.co/spaces/3loi/WavLM-SER-Multi-Baseline-Odyssey2024)
   - [ ] Valence model
   - [ ] Dominance model
   - [ ] Arousal model
