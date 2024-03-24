@@ -56,7 +56,7 @@ If you are only interested in using the pretained models for prediction or featu
 
   #### Models on HuggingFace
   - [x] [Categorical model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Categorical)
-  - [x] [Multi-task attribute model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes)   -  [Emmotional Attributes Prediction App/Demo](https://huggingface.co/spaces/3loi/WavLM-SER-Multi-Baseline-Odyssey2024)
+  - [x] [Multi-task attribute model](https://huggingface.co/3loi/SER-Odyssey-Baseline-WavLM-Multi-Attributes)   -  [Emotional Attributes Prediction App/Demo](https://huggingface.co/spaces/3loi/WavLM-SER-Multi-Baseline-Odyssey2024)
   - [ ] Valence model
   - [ ] Dominance model
   - [ ] Arousal model
